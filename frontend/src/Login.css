@@ -1,0 +1,29 @@
+.Login_Form{
+    min-height: 60vh;
+    min-width: 60vw;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background: #fff;
+}
+input{
+    height: 2rem;
+    width: 15rem;
+    display: block;
+    margin: 1rem auto;
+    outline: none;
+    border: 1px solid black;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+.button{
+    width: 15rem;
+    height: 2.5rem;
+    background: #007BFF;
+    outline: none;
+    border-radius: 2rem;
+    
+}

@@ -1,0 +1,21 @@
+.Instructions{
+    background-color: antiquewhite;
+    background-blend-mode: color-burn;
+    height: 30rem;
+    width: 70vw;
+    font-size: x-large;
+    font-weight: 900;
+    padding: 2rem;
+    /* font */
+
+}
+.Timer{
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 6rem;
+    height: 10rem;
+    /* border: 2px solid black; */
+}

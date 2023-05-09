@@ -1,0 +1,32 @@
+.ResultPerUser{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 1rem;
+    height: max-content;
+    width: 70vw;
+    margin: auto;
+}
+.ResultDetails{
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #0c0cd48f;
+    border-radius: 1rem;
+    position: relative;
+    box-shadow: rgb(61, 78, 96) 0px 20px 30px -10px;
+    z-index: 3;
+}
+.ResultAnalysis{
+    height: 2rem;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+    position: relative;
+    top: -12px;
+    border-bottom-right-radius: 1rem;
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 1rem
+}

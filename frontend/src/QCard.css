@@ -1,0 +1,118 @@
+.card{
+    width: 80vw;
+    height: 60vh;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: rgb(46, 136, 192);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.ques{
+  margin-top: 1.4em;
+  width: 85%;
+  /* border: 2px solid red; */
+  text-align: center  ;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.option_clue{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+.options{
+  font-size: 1.2rem;
+  min-width: 2rem;
+  width: 300px;
+  border-radius: 2rem;
+  background: rgb(25, 161, 104); 
+  padding: 1.5rem 1rem;
+  margin: 1rem 0;
+  border: 2px solid black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+
+}
+.clue{
+    cursor: pointer;
+    /* min-width: 2rem; */
+    width: 100%;
+    height: 100%;
+}
+.hidden{
+  cursor: pointer;
+    /* min-width: 2rem; */
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:4rem;
+    font-weight: 900;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.option_block{
+  /* border: 2px solid blue; */
+  width: 70%;
+  
+}
+.options:hover{
+  background: rgb(19, 79, 54);
+}             
+.NextQuestionButton{
+  display: block;
+  /* border: 2px solid forestgreen; */
+  height: 3rem; 
+  width: 300px;
+  margin: 0 auto;
+  border: 2rem;
+  border-radius: 2rem;
+  font-weight: 900;
+  font-size: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+@media only screen and (min-width:768px)
+{
+  .options{
+    margin:  10px;
+  }
+  .NextQuestionButton{
+    color: red;
+  }
+  .option_block{
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card-block{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+}
+.NextQuestionButton:hover{
+  border: 3px solid white;
+  background-color: black;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.image-block{
+  height: 100%;
+  width: 25%;
+  /* border: 2px solid red; */
+  text-align: center;
+  /* vertical-align: ; */
+}

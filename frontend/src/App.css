@@ -1,0 +1,15 @@
+body{
+    background: #fff;
+}
+.badadiv{
+    border: 2px solid red;
+    background: url(https://c4.wallpaperflare.com/wallpaper/955/952/868/minimalist-minimalism-darkness-mountain-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: calc(100vw -5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
